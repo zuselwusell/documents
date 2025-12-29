@@ -1,78 +1,209 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <p>Privacy Policy – Wordimi
-Last updated: 20.11.2025
-1. Überblick
-Die App Wordimi ist ein privates Freizeitprojekt von Stefanie Huber.
-Wordimi ist ein Wort-Rätselspiel, das ohne Registrierung genutzt werden kann und keine
-personenbezogenen Daten sammelt.
-Diese Datenschutzrichtlinie beschreibt, welche Daten erhoben werden, wie sie verarbeitet
-werden und welche Drittanbieter-Services genutzt werden.
-2. Verantwortliche
-Stefanie Huber
-(conjou.apps@gmail.com)
-Hinweis: Die App wird privat betrieben. Es gibt keine geschäftliche Anschrift.
-3. Welche Daten werden gesammelt?
-🔹 3.1 Keine personenbezogenen Daten
-Wordimi sammelt keine personenbezogenen Daten wie Name, E-Mail, Telefonnummer,
-Adresse oder sonstige identifizierende Informationen.
-🔹 3.2 Anonyme Diagnose- und Nutzungsdaten
-Die App erfasst ausschließlich anonyme Daten zur Verbesserung der App-Stabilität und
-Nutzererfahrung:
-• Anonyme Crashlogs
-• Anonyme Nutzungsstatistiken (z. B. welche Screens genutzt werden)
-Diese Daten lassen keinen Rückschluss auf einzelne Nutzer zu.
-4. Drittanbieter und deren Datenverarbeitung
-Wordimi verwendet folgende Drittanbieter-Services:
-🔹 4.1 Firebase Analytics
-Verwendet zur Erhebung anonymer Nutzungsdaten.
-Erfasst u. a.: App-Interaktionen, Geräteinformationen (Modell, OS-Version), ungefähre
-Nutzungsmuster.
-Es werden keine personenbezogenen Daten gespeichert.
-Mehr Informationen:
-https://policies.google.com/privacy
-🔹 4.2 Firebase Crashlytics
-Erfasst Absturzberichte, um die Stabilität der App zu verbessern.
-Die Daten sind anonym (keine Identitätsmerkmale).
-Mehr Informationen:
-https://firebase.google.com/support/privacy
-🔹 4.3 Google AdMob (Werbung)
-AdMob zeigt Werbung an und kann dafür Geräte- oder Nutzungsdaten erfassen (z. B.
-Anzeigeninteraktionen).
-AdMob arbeitet gemäß den Google-Richtlinien zur personalisierten und nicht-personalisierten
-Werbung.
-Google kann für Werbezwecke Cookie-ähnliche Kennungen verwenden.
-Mehr Informationen:
-https://policies.google.com/technologies/ads
-🔹 4.4 Google Play Billing (In-App-Käufe)
-Zur Abwicklung von In-App-Käufen (IAP) wird das Google Play Billing System verwendet.
-Die App selbst speichert keine Informationen über Käufe oder Nutzer.
-Mehr Informationen:
-https://policies.google.com/privacy
-5. Speicherung der Daten
-• Wordimi speichert keine Daten auf eigenen Servern.
-• Alle Daten werden ausschließlich über die oben genannten Drittanbieter verarbeitet.
-• Lokale App-Daten (z. B. Einstellungen oder Spielstände) verbleiben nur auf dem
-Gerät.
-6. Minderjährige
-Wordimi richtet sich nicht an Kinder, die nach lokalem Recht als minderjährig gelten (z. B.
-unter 13 oder 16 Jahren).
-Die App hat keine Inhalte, die speziell für Minderjährige bestimmt sind.
-7. Rechte der Nutzer
-Da die App keine personenbezogenen Daten speichert, ergeben sich folgende Punkte:
-• Es gibt keine Daten, die gelöscht, exportiert oder berichtigt werden müssten.
-• Nutzer können die Datenerfassung (Analytics & Ads) durch Betriebssystem-
-Funktionen begrenzen (z. B. „Ads Personalisierung deaktivieren“).
-8. Änderungen dieser Richtlinie
-Diese Datenschutzrichtlinie kann aktualisiert werden, um gesetzlichen Anforderungen oder
-Funktionsänderungen der App zu entsprechen.
-Das Datum der letzten Aktualisierung steht oben in diesem Dokument.
-9. Kontakt
-Bei Fragen zum Datenschutz kannst du dich per E-Mail melden:
-📧 conjou.apps@gmail.com</p>
-    </body>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Wordimi</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 24px;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 32px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      margin-top: 1.8em;
+      font-size: 1.4em;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.2em;
+    }
+    h3 {
+      margin-top: 1.2em;
+      font-size: 1.1em;
+    }
+    p {
+      margin: 0.6em 0;
+    }
+    ul {
+      margin: 0.6em 0 0.6em 1.2em;
+    }
+    li {
+      margin: 0.4em 0;
+    }
+    .meta {
+      color: #666;
+      font-size: 0.9em;
+      margin-bottom: 1.5em;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy – Wordimi</h1>
+    <p class="meta">Last updated: 20.11.2025</p>
+
+    <h2>1. Überblick</h2>
+    <p>
+      Die App <strong>Wordimi</strong> ist ein privates Freizeitprojekt von Stefanie Huber.
+      Wordimi ist ein Wort-Rätselspiel, das ohne Registrierung genutzt werden kann und keine
+      personenbezogenen Daten sammelt.
+    </p>
+    <p>
+      Diese Datenschutzrichtlinie beschreibt, welche Daten erhoben werden, wie sie verarbeitet
+      werden und welche Drittanbieter-Services genutzt werden.
+    </p>
+
+    <h2>2. Verantwortliche</h2>
+    <p>
+      Stefanie Huber<br>
+      📧 <a href="mailto:conjou.apps@gmail.com">conjou.apps@gmail.com</a>
+    </p>
+    <p>
+      <em>Hinweis:</em> Die App wird privat betrieben. Es gibt keine geschäftliche Anschrift.
+    </p>
+
+    <h2>3. Welche Daten werden gesammelt?</h2>
+
+    <h3>3.1 Keine personenbezogenen Daten</h3>
+    <p>
+      Wordimi sammelt keine personenbezogenen Daten wie Name, E-Mail-Adresse,
+      Telefonnummer, Adresse oder sonstige identifizierende Informationen.
+    </p>
+
+    <h3>3.2 Anonyme Diagnose- und Nutzungsdaten</h3>
+    <p>
+      Die App erfasst ausschließlich anonyme Daten zur Verbesserung der App-Stabilität
+      und Nutzererfahrung:
+    </p>
+    <ul>
+      <li>Anonyme Crashlogs</li>
+      <li>Anonyme Nutzungsstatistiken (z. B. welche Screens genutzt werden)</li>
+    </ul>
+    <p>
+      Diese Daten lassen keinen Rückschluss auf einzelne Nutzer zu.
+    </p>
+
+    <h2>4. Drittanbieter und deren Datenverarbeitung</h2>
+
+    <h3>4.1 Firebase Analytics</h3>
+    <p>
+      Wird zur Erhebung anonymer Nutzungsdaten verwendet.
+      Erfasst unter anderem App-Interaktionen, Geräteinformationen
+      (z. B. Modell, Betriebssystem-Version) und ungefähre Nutzungsmuster.
+    </p>
+    <p>
+      Es werden keine personenbezogenen Daten gespeichert.
+    </p>
+    <p>
+      Mehr Informationen:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+        https://policies.google.com/privacy
+      </a>
+    </p>
+
+    <h3>4.2 Firebase Crashlytics</h3>
+    <p>
+      Firebase Crashlytics erfasst Absturzberichte, um die Stabilität der App zu verbessern.
+      Die Daten sind anonym und enthalten keine Identitätsmerkmale.
+    </p>
+    <p>
+      Mehr Informationen:
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">
+        https://firebase.google.com/support/privacy
+      </a>
+    </p>
+
+    <h3>4.3 Google AdMob (Werbung)</h3>
+    <p>
+      Google AdMob zeigt Werbung an und kann dafür Geräte- oder Nutzungsdaten
+      (z. B. Anzeigeninteraktionen) erfassen.
+    </p>
+    <p>
+      AdMob arbeitet gemäß den Google-Richtlinien zur personalisierten und
+      nicht-personalisierten Werbung. Google kann für Werbezwecke
+      cookie-ähnliche Kennungen verwenden.
+    </p>
+    <p>
+      Mehr Informationen:
+      <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">
+        https://policies.google.com/technologies/ads
+      </a>
+    </p>
+
+    <h3>4.4 Google Play Billing (In-App-Käufe)</h3>
+    <p>
+      Zur Abwicklung von In-App-Käufen (IAP) wird das Google Play Billing System verwendet.
+      Die App selbst speichert keine Informationen über Käufe oder Nutzer.
+    </p>
+    <p>
+      Mehr Informationen:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+        https://policies.google.com/privacy
+      </a>
+    </p>
+
+    <h2>5. Speicherung der Daten</h2>
+    <ul>
+      <li>Wordimi speichert keine Daten auf eigenen Servern.</li>
+      <li>Alle Daten werden ausschließlich über die genannten Drittanbieter verarbeitet.</li>
+      <li>Lokale App-Daten (z. B. Einstellungen oder Spielstände) verbleiben nur auf dem Gerät.</li>
+    </ul>
+
+    <h2>6. Minderjährige</h2>
+    <p>
+      Wordimi richtet sich nicht an Kinder, die nach lokalem Recht als minderjährig gelten
+      (z. B. unter 13 oder 16 Jahren).
+    </p>
+    <p>
+      Die App enthält keine Inhalte, die speziell für Minderjährige bestimmt sind.
+    </p>
+
+    <h2>7. Rechte der Nutzer</h2>
+    <p>
+      Da die App keine personenbezogenen Daten speichert, ergeben sich folgende Punkte:
+    </p>
+    <ul>
+      <li>Es gibt keine Daten, die gelöscht, exportiert oder berichtigt werden müssten.</li>
+      <li>
+        Nutzer können die Datenerfassung (Analytics &amp; Werbung) über
+        Betriebssystem-Funktionen einschränken
+        (z. B. „Ads-Personalisierung deaktivieren“).
+      </li>
+    </ul>
+
+    <h2>8. Änderungen dieser Richtlinie</h2>
+    <p>
+      Diese Datenschutzrichtlinie kann aktualisiert werden, um gesetzlichen Anforderungen
+      oder Funktionsänderungen der App zu entsprechen.
+      Das Datum der letzten Aktualisierung steht oben in diesem Dokument.
+    </p>
+
+    <h2>9. Kontakt</h2>
+    <p>
+      Bei Fragen zum Datenschutz kannst du dich per E-Mail melden:<br>
+      📧 <a href="mailto:conjou.apps@gmail.com">conjou.apps@gmail.com</a>
+    </p>
+  </main>
+</body>
 </html>
